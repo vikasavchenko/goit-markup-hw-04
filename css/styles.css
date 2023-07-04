@@ -150,6 +150,8 @@ footer .logo-text {
 }
 
 .section-title {
+    max-width: 1440px;
+    margin: 0 auto;
     padding: 188px 0;
     background-image:linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/title/bg-img.jpg);
     background-position: center;
