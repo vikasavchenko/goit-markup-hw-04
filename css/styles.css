@@ -376,12 +376,16 @@ footer .logo-text {
 
 .footer-wrapper {
     display: flex;
-    gap: 120px;
+    /* gap: 120px; */
     align-items: baseline;
 }
 
 .footer-wrapper > div {
     flex: 0 0 25%;
+}
+
+.footer-info {
+    margin-right: 120px;
 }
 
 .footer .logo {
@@ -422,6 +426,11 @@ footer .logo-text {
 .icon-link {
     fill: var(--cloud);
     background-color: var(--iris);
+}
+
+.social-icons-item .icon-link:hover,
+.social-icons-item .icon-link:focus {
+    background-color: var(--ocean);
 }
 
 .icon-link:hover,
