@@ -135,7 +135,14 @@ footer .logo-text {
     font-weight: 500;
     line-height: 1.5rem;
     letter-spacing: 0.02rem;
-    color: var(--slate, #434455);
+}
+
+.nav-item a {
+    color: var(--navyblue);
+}
+
+.address-item a {
+    color: var(--slate);
 }
 
 .nav-item:first-of-type>a {
