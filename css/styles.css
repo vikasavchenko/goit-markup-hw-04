@@ -313,36 +313,20 @@ footer .logo-text {
     justify-content: center;
 }
 
-.social-icons-item {
-    padding: 12px;
-    border-radius: 50%;
-    background-color: var(--iris);
-    fill: var(--cloud);
-}
-
-
 .social-icon-link {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 100%;
+    border-radius: 50%;
+    padding: 12px;
+    fill: var(--cloud);
     background-color: var(--iris);
-    border: 50%;
-}
-
-.social-icon-link:hover,
-.social-icon-link:focus {
-    background-color: var(--ocean);
 }
 
 .social-icon {
     fill: var(--cloud);
-}
-
-.customers-title {
-    padding-top: 120px;
-    margin-bottom: 72px;
 }
 
 .section-customers {
@@ -350,36 +334,29 @@ footer .logo-text {
     padding-bottom: 120px;
 }
 
+.customers-title {
+    margin-bottom: 72px;
+}
+
 .customers-icons-list {
     display: flex;
     gap: 24px;
     justify-content: center;
-    /* margin-top: 72px; */
-    margin-bottom: 120px;
-}
-
-.customer {
-    border: 1px solid var(--light-slate);
-    border-radius: 4px;
-    padding: 16px 32px;
-    fill: var(--light-slate);
 }
 
 .customers-icons-item {
     width: calc((100% - 120px) / 6);
     height: 88px;
-
 }
 
 .customer-icon-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     height: 100%;
     border: 1px solid var(--light-slate);
     border-radius: 4px;
-
+    padding: 16px 32px;
+    
+    fill: var(--light-slate);
     color: var(--light-slate);
 }
 
@@ -407,11 +384,6 @@ footer .logo-text {
     flex: 0 0 25%;
 }
 
-/* .footer-list-item {
-    flex-basis: 25%;
-    min-width: 264px;
-} */
-
 .footer .logo {
     display: inline-block;
     margin-bottom: 16px;
@@ -430,20 +402,31 @@ footer .logo-text {
     font-weight: 500;
     line-height: 1.5rem;
     letter-spacing: 0.02rem;
+
+    margin-bottom: 16px;
     color: var(--white);
 }
 
 .footer-social-links-list {
     display: flex;
     gap: 1rem;
-    padding-top: 1rem;
 }
 
-.footer-icons-item {
-    padding: 8px;
+.footer-icon-link {
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
-    background-color: var(--iris);
+    padding: 8px;
+}
+
+.icon-link {
     fill: var(--cloud);
+    background-color: var(--iris);
+}
+
+.icon-link:hover,
+.icon-link:focus {
+    background-color: var(--green);
 }
 
 
